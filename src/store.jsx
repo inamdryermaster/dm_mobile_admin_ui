@@ -24,7 +24,7 @@ const reducers = {
   home: homeSlice,
   chart: chartSlice,
 };
-// test
+
 const Store = configureStore({
   reducer: reducers,
 });
